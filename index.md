@@ -1,3 +1,3 @@
 # Welcome!
 
-[About us](about.md)
+[About me](about.md)

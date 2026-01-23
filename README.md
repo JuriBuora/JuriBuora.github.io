@@ -4,8 +4,7 @@
 This repository documents my journey into cybersecurity over the next **7 months**.
 
 Not a bootcamp.
-Not a “watch some videos and call it a career change”.
-And definitely not a motivational diary.
+Not a motivational diary.
 
 This is a **public, structured learning log** where I document:
 - what I study
@@ -81,7 +80,7 @@ This repository is:
 - not security advice
 - not a checklist for shortcuts
 
-It’s a **learning process**, in public, with mistakes included.
+It’s a **learning process**, in public, with mistakes included (lots of them).
 
 ---
 

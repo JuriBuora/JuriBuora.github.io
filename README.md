@@ -1,5 +1,3 @@
-# JuriBuora.github.io
-
 #  7 Months to Cybersecurity — A Public Learning Log
 
 

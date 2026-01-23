@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.baseurl | prepend: site.url | relative_url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+    <hr>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </footer>
+</body>
+</html>

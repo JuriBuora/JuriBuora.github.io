@@ -1,0 +1,12 @@
+title: "my blog"
+description: "Personal blog"
+baseurl: ""  # user site (username.github.io) should use empty baseurl
+url: "https://JuriBuora.github.io"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
+paginate: 5
+author: "JuriBuora"

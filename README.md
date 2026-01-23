@@ -1,74 +1,100 @@
 # JuriBuora.github.io
 
-7 Months to Cybersecurity — A Public Learning Log
+#  7 Months to Cybersecurity — A Public Learning Log
 
-This repository documents my journey into cybersecurity over the next 7 months.
 
-Not a bootcamp. Not a “watch some videos and call it a career change”. And definitely not a motivational diary.
+This repository documents my journey into cybersecurity over the next **7 months**.
 
-This is a public, structured learning log where I document:
+Not a bootcamp.
+Not a “watch some videos and call it a career change”.
+And definitely not a motivational diary.
 
-what I study
-what I build
-what I break
-what I misunderstand
-and what I eventually learn to do properly
-🎯 The Goal
+This is a **public, structured learning log** where I document:
+- what I study
+- what I build
+- what I break
+- what I misunderstand
+- and what I eventually learn to do *properly*
+
+---
+
+## 🎯 The Goal
+
 By the end of these 7 months, my objective is to:
+- have **solid fundamentals** in networking, Linux, web technologies, and security
+- complete and **properly document at least 15 penetration tests**
+- be **junior-level hireable** in cybersecurity
+- demonstrate the ability to *think*, not just run tools
 
-have solid fundamentals in networking, Linux, web technologies, and security
-complete and properly document at least 15 penetration tests
-be junior-level hireable in cybersecurity
-demonstrate the ability to think, not just run tools
-I’m not aiming to be an expert. I’m aiming to be useful, honest, and employable — with room to grow.
+I’m not aiming to be an expert.
+I’m aiming to be **useful, honest, and employable** — with room to grow.
 
-🧭 How I’m Approaching This
+---
+
+## 🧭 How I’m Approaching This
+
 I’m focusing on:
+- **Foundations first** (networking, how the web works, Linux, protocols)
+- **Hands-on labs** (TryHackMe, practical exercises, controlled environments)
+- **Documentation** (clear notes, diagrams, reports, and reflections)
+- **Understanding flows**, not memorizing definitions
+- **Visual thinking** (diagrams, maps, failure scenarios)
 
-Foundations first (networking, how the web works, Linux, protocols)
-Hands-on labs (TryHackMe, practical exercises, controlled environments)
-Documentation (clear notes, diagrams, reports, and reflections)
-Understanding flows, not memorizing definitions
-Visual thinking (diagrams, maps, failure scenarios)
-Every day is logged. Every assumption gets challenged. Every gap gets written down instead of ignored.
+Every day is logged.
+Every assumption gets challenged.
+Every gap gets written down instead of ignored.
 
-📁 Repository Structure
+---
+
+## 📁 Repository Structure
+
 You’ll find:
+- **Daily logs** — what I studied and what actually stuck
+- **Labs** — practical exercises and walkthroughs
+- **Reports** — structured write-ups (increasingly pentest-style)
+- **Diagrams & notes** — how I make sense of complex systems
+- **Portfolio material** — things I’d be comfortable showing a recruiter
 
-Daily logs — what I studied and what actually stuck
-Labs — practical exercises and walkthroughs
-Reports — structured write-ups (increasingly pentest-style)
-Diagrams & notes — how I make sense of complex systems
-Portfolio material — things I’d be comfortable showing a recruiter
-Nothing here is polished for show. It’s polished for clarity.
+Nothing here is polished for show.
+It’s polished for **clarity**.
 
-🤝 Feedback Is Welcome (Seriously)
+---
+
+## 🤝 Feedback Is Welcome (Seriously)
+
 If you’re more experienced and you see:
+- bad assumptions
+- weak mental models
+- inefficient approaches
+- things I should stop doing or start doing sooner
 
-bad assumptions
-weak mental models
-inefficient approaches
-things I should stop doing or start doing sooner
 Please comment, open an issue, or say something.
 
 I’d much rather be corrected early than confidently wrong later.
 
 If you’re at a similar stage, feel free to follow along, compare notes, or steal the structure.
 
-⚠️ A Small Disclaimer
+---
+
+## ⚠️ A Small Disclaimer
+
 This repository is:
+- not a tutorial
+- not security advice
+- not a checklist for shortcuts
 
-not a tutorial
-not security advice
-not a checklist for shortcuts
-It’s a learning process, in public, with mistakes included.
+It’s a **learning process**, in public, with mistakes included.
 
-🚀 Why Public?
+---
+
+## 🚀 Why Public?
+
 Because:
+- accountability beats motivation
+- documentation forces understanding
+- pretending to know things helps no one
 
-accountability beats motivation
-documentation forces understanding
-pretending to know things helps no one
-If this helps someone else learn, great. If it helps me stay honest and disciplined, even better.
+If this helps someone else learn, great.
+If it helps me stay honest and disciplined, even better.
 
 Let’s see where this goes.

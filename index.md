@@ -4,7 +4,7 @@ title: "my blog"
 permalink: /
 ---
 
-Welcome to my blog. This is your homepage where daily notes will appear. Below are your posts (Day 01, Day 02, ...).
+Welcome to my blog. This is my homepage where daily notes will appear. Below are my posts (Day 01, Day 02, ...).
 
 <ul>
   {% for post in site.posts %}

@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juribuora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JBuora
 github_username:  JuriBuora
-linkedin_username: [Juri-Buora]
+linkedin_username: Juri-Buora
 facebook_username: juri.buora
 
 # Build settings
@@ -56,4 +56,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-[Juri-Buora]: https://www.linkedin.com/in/juri-buora-b0940a11a/

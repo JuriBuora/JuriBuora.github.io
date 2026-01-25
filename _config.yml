@@ -32,7 +32,7 @@ linkedin_username: juri-buora
 facebook_username: juri.buora
 
 # Build settings
-theme: minima
+theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
 

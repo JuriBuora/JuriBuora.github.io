@@ -1,5 +1,8 @@
 ---
 layout: home
-title: "From Zero to Security"
+title: "Home"
 permalink: /
 ---
+
+Welcome to my blog! Here you'll find my latest posts about cybersecurity and software engineering.
+

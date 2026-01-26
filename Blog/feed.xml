@@ -22,7 +22,7 @@ layout: none
       <id>{{ site.url }}{{ site.baseurl }}{{ post.url }}</id>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <summary type="html">{{ post.excerpt | strip_html | xml_escape }}</summary>
-      <content type="html">{{ post.content | strip_html | xml_escape | truncate: 5000 }}</content>
+      <content type="html">{{ post.content | strip_html | xml_escape | truncate: 3000 }}</content>
     </entry>
     {% endif %}
   {% endfor %}

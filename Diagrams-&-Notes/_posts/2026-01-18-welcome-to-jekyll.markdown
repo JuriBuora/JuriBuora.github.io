@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diagrams & Notes!"
+title:  "Diagrams & Notes"
 date:   2026-01-18 16:21:01
 categories: diagrams-&-notes
 ---

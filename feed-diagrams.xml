@@ -1,28 +1,28 @@
 ---
 layout: none
 ---
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <link href="{{ site.url }}{{ site.baseurl }}/feed-diagrams.xml" rel="self" type="application/atom+xml"/>
-  <link href="{{ site.url }}{{ site.baseurl }}/Diagrams-&-Notes/" rel="alternate" type="text/html"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/Diagrams-&amp;-Notes/" rel="alternate" type="text/html"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}{{ site.baseurl }}/feed-diagrams.xml</id>
-  <title>{{ site.title | xml_escape }} - Diagrams & Notes</title>
-  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <title><![CDATA[{{ site.title }} - Diagrams & Notes]]></title>
+  <subtitle><![CDATA[{{ site.description }}]]></subtitle>
   <author>
-    <name>{{ site.author | xml_escape }}</name>
-    <email>{{ site.email | xml_escape }}</email>
+    <name><![CDATA[Juri Buora]]></name>
+    <email>juribuora@gmail.com</email>
   </author>
   
   {% for post in site.posts %}
     {% if post.categories contains 'diagrams-&-notes' %}
     <entry>
-      <title>{{ post.title | xml_escape }}</title>
+      <title><![CDATA[{{ post.title }}]]></title>
       <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
       <id>{{ site.url }}{{ site.baseurl }}{{ post.url }}</id>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <summary type="html">{{ post.excerpt | strip_html | xml_escape }}</summary>
-      <content type="html">{{ post.content | strip_html | xml_escape | truncate: 5000 }}</content>
+      <summary><![CDATA[{{ post.excerpt | strip_html | truncate: 200 }}]]></summary>
+      <content type="html"><![CDATA[{{ post.content | strip_html | truncate: 2000 }}]]></content>
     </entry>
     {% endif %}
   {% endfor %}

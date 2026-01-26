@@ -42,7 +42,7 @@ author: Juri Buora  # Your full name
 
 # Navigation menu order
 header_pages:
-  - Blog.md
+  - Blog/index.md
   - Diagrams-&-Notes/index.md
   - Labs/index.md
   - Reports/index.md

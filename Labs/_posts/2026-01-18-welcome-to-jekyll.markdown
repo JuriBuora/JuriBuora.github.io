@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Labs!"
+title:  "Labs"
 date:   2026-01-18 16:21:01
 categories: labs
 ---

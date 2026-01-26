@@ -7,22 +7,22 @@ layout: none
   <link href="{{ site.url }}{{ site.baseurl }}/Diagrams-&amp;-Notes/" rel="alternate" type="text/html"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}{{ site.baseurl }}/feed-diagrams.xml</id>
-  <title><![CDATA[{{ site.title }} - Diagrams & Notes]]></title>
-  <subtitle><![CDATA[{{ site.description }}]]></subtitle>
+  <title>From Zero to Security - Diagrams & Notes</title>
+  <subtitle>Personal site documenting my journey into software engineering and cybersecurity</subtitle>
   <author>
-    <name><![CDATA[Juri Buora]]></name>
+    <name>Juri Buora</name>
     <email>juribuora@gmail.com</email>
   </author>
   
   {% for post in site.posts %}
     {% if post.categories contains 'diagrams-&-notes' %}
     <entry>
-      <title><![CDATA[{{ post.title }}]]></title>
+      <title>{{ post.title | escape_once }}</title>
       <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
       <id>{{ site.url }}{{ site.baseurl }}{{ post.url }}</id>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <summary><![CDATA[{{ post.excerpt | strip_html | truncate: 200 }}]]></summary>
-      <content type="html"><![CDATA[{{ post.content | strip_html | truncate: 2000 }}]]></content>
+      <summary>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</summary>
+      <content>{{ post.content | strip_html | strip_newlines | truncate: 1500 }}</content>
     </entry>
     {% endif %}
   {% endfor %}

@@ -1,3 +1,21 @@
+### README MUST ANSWER
+
+- Who are you?
+    
+- What level?
+    
+- What you can do _now_
+    
+- What you’re working toward
+    
+
+
+
+
+
+
+
+
 #  7 Months to Cybersecurity — A Public Learning Log
 
 

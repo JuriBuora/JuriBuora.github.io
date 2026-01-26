@@ -25,12 +25,49 @@ description: >- # this means to ignore newlines until "baseurl:"
   with practical notes, experiments, and real-world lessons learned along the way.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://JuriBuora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+url: "https://juribuora.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# Social media
+twitter_username: JBuora
 github_username:  JuriBuora
+linkedin_username: Juri-Buora
+facebook_username: Juri.Buora
+
+
+
+# Fields minima uses, but are not defaulted with the jekyll new command.
+# Author is the default for posts, the Atom feed, and is used in the footer.
+# Author info
+author: Juri Buora  # Your full name
+
+
+# Navigation menu order
+header_pages:
+  - Blog/index.md
+  - Diagrams-&-Notes/index.md
+  - Labs/index.md
+  - Reports/index.md
+  - Portfolio-Material/index.md
+  - about.markdown
+
+
+# New fields not defaulted by jekyll-new with the minimia theme
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: Company Name, Inc.
+copyright: "Juri Buora"
+
+
+# title-logo is a new field that, when used, displays a logo
+# instead of custom text. Ideally, image is 50px high and takes up
+# minimal horizontal space. Tested with a new root "images" folder e.g.:
+# title-logo: /images/my-logo.png (or JPG, etc.)
+title-logo: /images/title-logo.png
+
+
+
 
 # Build settings
-theme: minima
+# Removed minima theme as it is now a regular theme.
+# theme: minima
 plugins:
   - jekyll-feed
 
@@ -42,14 +79,11 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md

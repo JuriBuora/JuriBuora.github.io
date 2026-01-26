@@ -1,17 +1,8 @@
 ---
 layout: home
-title: "my blog"
+title: "Home"
 permalink: /
 ---
 
-Welcome to my blog. This is my homepage where daily notes will appear. Below are my posts (Day 01, Day 02, ...).
+Welcome to my blog! Here you'll find my latest posts about cybersecurity and software engineering.
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%d-%m-%Y" }}
-    </li>
-  {% endfor %}
-</ul>
-
-<!-- To add a daily note create a post file in _posts with the filename format: YYYY-MM-DD-day-XX.md and the title like: "Day 01 - 16-01-2025" -->

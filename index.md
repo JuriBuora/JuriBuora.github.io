@@ -1,5 +1,8 @@
 ---
 layout: home
-title: "Blog"
-permalink: /Blog/
+title: "Home"
+permalink: /
 ---
+
+Welcome to my site!
+

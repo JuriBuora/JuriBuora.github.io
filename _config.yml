@@ -39,6 +39,17 @@ facebook_username: Juri.Buora
 # Author info
 author: Juri Buora  # Your full name
 
+
+# Navigation menu order
+header_pages:
+  - Blog.md
+  - Diagrams-&-Notes/index.md
+  - Labs/index.md
+  - Reports/index.md
+  - Portfolio-Material/index.md
+  - about.markdown
+
+
 # New fields not defaulted by jekyll-new with the minimia theme
 # Add a copyright. A copyright symbol and year will be added automatically
 # copyright: Company Name, Inc.
@@ -68,17 +79,11 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#   - README.md
-#
-
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md

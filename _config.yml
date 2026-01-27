@@ -87,3 +87,10 @@ exclude:
   - node_modules/
   - vendor/
   - README.md
+
+
+nav:
+  - title: "Blog"
+    url: /
+  - title: "Tags"
+    url: /tags/

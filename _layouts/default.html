@@ -16,5 +16,11 @@
     {%- include footer.html -%}
 
   </body>
+  <nav>
+  {% for item in site.nav %}
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  {% endfor %}
+  </nav>
+
 
 </html>

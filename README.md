@@ -1,7 +1,7 @@
-#  7 Months to Cybersecurity — A Public Learning Log
+#  From Zero to Cybersecurity
 
 
-This repository documents my journey into cybersecurity over the next **7 months**.
+This repository documents my journey into cybersecurity over the next **7/8 months** or so, for now.
 
 Not a bootcamp.
 Not a motivational diary.
@@ -19,9 +19,9 @@ This is a **public, structured learning log** where I document:
 
 By the end of these 7 months, my objective is to:
 - have **solid fundamentals** in networking, Linux, web technologies, and security
-- complete and **properly document at least 15 penetration tests**
-- be **junior-level hireable** in cybersecurity
-- demonstrate the ability to *think*, not just run tools
+- complete and **properly document at least 10 penetration tests**
+- hopefully be **junior-level hireable** in cybersecurity or close
+- demonstrate the ability to *think* in this complicated field and not just run tools
 
 I’m not aiming to be an expert.
 I’m aiming to be **useful, honest, and employable** — with room to grow.
@@ -53,7 +53,7 @@ You’ll find:
 - **Portfolio material** — things I’d be comfortable showing a recruiter
 
 Nothing here is polished for show.
-It’s polished for **clarity**.
+It’s polished for **clarity** or at least it tries to be.
 
 ---
 
@@ -80,7 +80,7 @@ This repository is:
 - not security advice
 - not a checklist for shortcuts
 
-It’s a **learning process**, in public, with mistakes included (lots of them).
+It’s a **learning process**, my learning process, in public, with mistakes included (lots of them).
 
 ---
 
@@ -92,6 +92,6 @@ Because:
 - pretending to know things helps no one
 
 If this helps someone else learn, great.
-If it helps me stay honest and disciplined, even better.
+Hopefully it will help me stay honest and disciplined.
 
 Let’s see where this goes.

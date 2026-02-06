@@ -4,7 +4,7 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     
-#
+#      Bundle exec jekyll serve --livereload
 #
 #
 # This will help ensure the proper Jekyll version is running.

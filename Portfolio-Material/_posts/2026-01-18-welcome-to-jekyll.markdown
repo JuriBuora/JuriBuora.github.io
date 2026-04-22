@@ -4,6 +4,10 @@ title:  "Portfolio Material"
 date:   2026-01-18 16:21:01
 categories: portfolio-material
 ---
+Ciao!
+This file will stay here for now just so that I can check the structure of my website if needed.
+I will get rid of it eventually as soon as I will have more exciting stuff to post in this folder.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

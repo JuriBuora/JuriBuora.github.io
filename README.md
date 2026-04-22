@@ -1,7 +1,7 @@
 #  From Zero to Cybersecurity
 
 
-This repository documents my journey into cybersecurity over the next **7/8 months** or so, for now.
+This repository documents my journey into cybersecurity over the next months.
 
 Not a bootcamp.
 Not a motivational diary.
@@ -17,7 +17,7 @@ This is a **public, structured learning log** where I document:
 
 ## 🎯 The Goal
 
-By the end of these 7 months, my objective is to:
+My objective is to:
 - have **solid fundamentals** in networking, Linux, web technologies, and security
 - complete and **properly document at least 10 penetration tests**
 - hopefully be **junior-level hireable** in cybersecurity or close

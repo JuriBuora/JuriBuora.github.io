@@ -1,97 +1,36 @@
-#  From Zero to Cybersecurity
+# From Zero to Cybersecurity
 
+This repository is the source archive for my public cybersecurity learning log.
 
-This repository documents my journey into cybersecurity over the next months.
+It documents what I study, what I build, what I misunderstand, and what I learn to explain more clearly over time. The polished public site is published at [juribuora.com](https://juribuora.com/).
 
-Not a bootcamp.
-Not a motivational diary.
+## Purpose
 
-This is a **public, structured learning log** where I document:
-- what I study
-- what I build
-- what I break
-- what I misunderstand
-- and what I eventually learn to do *properly*
+The goal is to build evidence for junior cybersecurity roles by showing:
 
----
+- consistent learning habits
+- hands-on lab work
+- Linux, networking, web, and security fundamentals
+- written reasoning, not just tool output
+- mistakes and corrections as part of the learning process
 
-## 🎯 The Goal
+I am not presenting myself as an expert. This is a structured record of becoming useful, honest, and employable while I keep studying.
 
-My objective is to:
-- have **solid fundamentals** in networking, Linux, web technologies, and security
-- complete and **properly document at least 10 penetration tests**
-- hopefully be **junior-level hireable** in cybersecurity or close
-- demonstrate the ability to *think* in this complicated field and not just run tools
+## Repository structure
 
-I’m not aiming to be an expert.
-I’m aiming to be **useful, honest, and employable** — with room to grow.
+- `Blog/` - daily learning notes and reflections
+- `Labs/` - hands-on exercises and lab write-ups
+- `Diagrams-&-Notes/` - diagrams, models, and reference notes
+- `Reports/` - future structured reports
+- `Portfolio-Material/` - future recruiter-ready material
+- `docs/templates/` - writing templates and workflow notes
 
----
+## How this connects to the live site
 
-## 🧭 How I’m Approaching This
+This Jekyll repo is the source of the writing. A separate React/Vite site mirrors selected posts into static JSON snapshots and publishes them to [juribuora.com](https://juribuora.com/).
 
-I’m focusing on:
-- **Foundations first** (networking, how the web works, Linux, protocols)
-- **Hands-on labs** (TryHackMe, practical exercises, controlled environments)
-- **Documentation** (clear notes, diagrams, reports, and reflections)
-- **Understanding flows**, not memorizing definitions
-- **Visual thinking** (diagrams, maps, failure scenarios)
+That split lets me keep writing in simple Markdown while still maintaining a faster, more polished public site.
 
-Every day is logged.
-Every assumption gets challenged.
-Every gap gets written down instead of ignored.
+## Feedback
 
----
-
-## 📁 Repository Structure
-
-You’ll find:
-- **Daily logs** — what I studied and what actually stuck
-- **Labs** — practical exercises and walkthroughs
-- **Reports** — structured write-ups (increasingly pentest-style)
-- **Diagrams & notes** — how I make sense of complex systems
-- **Portfolio material** — things I’d be comfortable showing a recruiter
-
-Nothing here is polished for show.
-It’s polished for **clarity** or at least it tries to be.
-
----
-
-## 🤝 Feedback Is Welcome (Seriously)
-
-If you’re more experienced and you see:
-- bad assumptions
-- weak mental models
-- inefficient approaches
-- things I should stop doing or start doing sooner
-
-Please comment, open an issue, or say something.
-
-I’d much rather be corrected early than confidently wrong later.
-
-If you’re at a similar stage, feel free to follow along, compare notes, or steal the structure.
-
----
-
-## ⚠️ A Small Disclaimer
-
-This repository is:
-- not a tutorial
-- not security advice
-- not a checklist for shortcuts
-
-It’s a **learning process**, my learning process, in public, with mistakes included (lots of them).
-
----
-
-## 🚀 Why Public?
-
-Because:
-- accountability beats motivation
-- documentation forces understanding
-- pretending to know things helps no one
-
-If this helps someone else learn, great.
-Hopefully it will help me stay honest and disciplined.
-
-Let’s see where this goes.
+Feedback is welcome, especially on weak assumptions, unclear mental models, or better ways to document cybersecurity work.

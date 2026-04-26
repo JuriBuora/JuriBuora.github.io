@@ -4,5 +4,4 @@ title: "Home"
 permalink: /
 ---
 
-Welcome to my blog! Here you'll find my latest posts about cybersecurity and software engineering.
-
+This is my public cybersecurity learning log: daily notes, hands-on labs, diagrams, and reflections from the process of building junior-level security skills.

@@ -12,7 +12,7 @@ It is not a bootcamp landing page and not a claim that I am already an expert. I
 
 ## Goal
 
-My objective is to become junior-level hireable in cybersecurity by building solid foundations and showing evidence of real practice.
+My objective is to build solid cybersecurity foundations through consistent practice, careful documentation, and steady improvement.
 
 I am focusing on:
 
@@ -22,6 +22,7 @@ I am focusing on:
 - security concepts and attacker behavior
 - SOC-style triage and detection thinking
 - clear technical documentation
+- the Google Cybersecurity Certificate, which I am actively completing alongside the labs documented here
 
 ## Approach
 
@@ -35,6 +36,6 @@ I am trying to learn in a way that makes my thinking visible:
 
 ## Why public
 
-Publishing the work helps me stay accountable and gives recruiters or mentors something concrete to review.
+Publishing the work helps me stay accountable and gives other learners and practitioners something concrete to discuss.
 
 The point is not to look perfect. The point is to show progress, discipline, honesty, and the ability to learn from evidence.

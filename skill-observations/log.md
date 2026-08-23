@@ -47,3 +47,24 @@ Observations captured during task-oriented work.
 **Principle:** Publication state and editorial state are different. Content deduplication must compare against the whole local queue.
 
 21-08-2026 19:18
+
+---
+
+## 23-08-2026
+
+### Observation 3: Resolve protected knowledge sources by exact scope, not path wording
+
+**Status:** OPEN
+**Date:** 23-08-2026
+**Session context:** Mining a permitted RAG and Obsidian knowledge base for evidence to support public learning content.
+**Skill:** New skill candidate: evidence-based learning-content drafting
+**Type:** open-source
+**Phase/Area:** Source discovery and privacy boundaries
+
+**Issue:** A broad path heuristic treated an allowed knowledge base as protected because an ancestor directory happened to contain a generic word such as `Documents`. The real boundary was a specifically named private vault, so the heuristic excluded valid evidence.
+
+**Suggested improvement:** Resolve data-access boundaries through exact canonical source roots and explicit protected-resource names. Apply exclusions by path identity, then record unavailable sources honestly rather than inferring privacy from generic path fragments.
+
+**Principle:** Privacy controls should be precise enough to protect the intended source without silently discarding legitimate, authorized evidence.
+
+23-08-2026 12:26

@@ -68,3 +68,24 @@ Observations captured during task-oriented work.
 **Principle:** Privacy controls should be precise enough to protect the intended source without silently discarding legitimate, authorized evidence.
 
 23-08-2026 12:26
+
+---
+
+## 13-09-2026
+
+### Observation 4: Separate historical-health checks from authored-batch validation
+
+**Status:** OPEN
+**Date:** 13-09-2026
+**Session context:** Validating a new cybersecurity blog and lab batch against a long-lived Jekyll editorial queue.
+**Skill:** blog-lab-publisher
+**Type:** open-source
+**Phase/Area:** Validation
+
+**Issue:** A full-repository identifier/frontmatter check failed on known historical filename and metadata inconsistencies before reaching the new batch. The failure was useful as a health signal, but it could not determine whether the newly authored files were valid.
+
+**Suggested improvement:** Require two explicit checks: a non-mutating full-queue health report that names pre-existing inconsistencies, and a strict owned-batch gate that validates each newly created file's frontmatter, identifiers, sequencing, build, and whitespace before commit.
+
+**Principle:** A legacy-wide validation failure must not obscure the correctness of a scoped change; preserve the broad signal while proving the exact files being delivered.
+
+13-09-2026 23:51

@@ -89,3 +89,24 @@ Observations captured during task-oriented work.
 **Principle:** A legacy-wide validation failure must not obscure the correctness of a scoped change; preserve the broad signal while proving the exact files being delivered.
 
 13-09-2026 23:51
+
+---
+
+## 15-09-2026
+
+### Observation 5: Persist an explicit mirror requirement at the workspace boundary
+
+**Status:** OPEN
+**Date:** 15-09-2026
+**Session context:** Reconciling a canonical cybersecurity blog and lab archive into an Obsidian vault after a user asked that future batches never omit the mirror.
+**Skill:** blog-lab-publisher
+**Type:** open-source
+**Phase/Area:** Create and mirror workflow
+
+**Issue:** A mirror step triggered only by a repeated request can be missed when a later content task says only “write posts.” The canonical source and its archive can then drift even though both are part of the intended publishing workflow.
+
+**Suggested improvement:** Let a repository-local standing instruction activate mirror mode automatically for that workspace, while retaining byte-equivalence checks and the rule that a divergent existing note is a conflict, never an overwrite.
+
+**Principle:** Repeated archive requirements should be represented as a durable workspace contract, not depend on the user remembering to restate them for every batch.
+
+15-09-2026 06:49

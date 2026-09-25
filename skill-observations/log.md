@@ -110,3 +110,11 @@ Observations captured during task-oriented work.
 **Principle:** Repeated archive requirements should be represented as a durable workspace contract, not depend on the user remembering to restate them for every batch.
 
 15-09-2026 06:49
+
+---
+
+## 25-09-2026
+
+No observations — the source-first, validated, remote-ref-verified release workflow completed as designed.
+
+25-09-2026 16:59

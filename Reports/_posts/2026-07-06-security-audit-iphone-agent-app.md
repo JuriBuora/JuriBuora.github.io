@@ -2,10 +2,10 @@
 layout: post
 title: "Audit Report: Security and Quality Review of My iPhone App for Controlling AI Agents"
 summary: "An audit of the iPhone app and the service behind it that let me run AI agents remotely. It found an unauthenticated service, a command filter that could be bypassed, and tasks marked done that were not. All were fixed and re-audited the same week."
-date: 2026-10-01
+date: 2026-07-06
 categories: reports
 tags: [Cybersecurity, Reports, MobileSecurity, Authentication, CommandInjection, AuditLogging, QualityAssurance]
-number: 7
+number: 1
 ---
 
 ## Summary in plain language
@@ -99,4 +99,6 @@ Run the same day as the last fixes, on a clean build, with the same scenario.
 
 The audits were of my own app, on a simulator and a local service, in July 2026. The app has changed since. Findings 1 to 3 are security findings; 4 to 6 are quality findings that affect trust.
 
-<!-- 01-10-2026 20:50 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

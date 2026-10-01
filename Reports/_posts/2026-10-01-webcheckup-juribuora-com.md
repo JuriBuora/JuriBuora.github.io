@@ -5,7 +5,7 @@ summary: "I ran my own website check-up service against my own site. It found ni
 date: 2026-10-01
 categories: reports
 tags: [Cybersecurity, Reports, WebSecurity, SecurityHeaders, Accessibility, WebPerformance, EmailSecurity]
-number: 1
+number: 8
 ---
 
 ## Summary in plain language
@@ -198,4 +198,4 @@ The engine is tuned for small local businesses. On any other kind of site these 
 
 This is an external, non-invasive review of a public website. It does not include penetration testing, aggressive scanning, login testing or exploit attempts. It covers the home page in depth and other page types only where a fix had to be verified. A clean result here does not mean the site is secure; it means these specific checks found nothing more.
 
-<!-- 01-10-2026 22:18 -->
+<!-- 01-10-2026 22:59 -->

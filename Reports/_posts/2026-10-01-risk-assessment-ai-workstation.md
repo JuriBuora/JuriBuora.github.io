@@ -149,4 +149,4 @@ The supervision layer that enforced independent checks is currently switched off
 - No external test was performed. Unknown vulnerabilities are, by definition, not in the register.
 - The ratings are qualitative judgements on a standard scale. They rank the risks against each other. They are not measurements.
 
-<!-- 01-10-2026 21:20 -->
+<!-- 01-10-2026 22:59 -->

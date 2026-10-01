@@ -2,10 +2,10 @@
 layout: post
 title: "Incident Report: A Chat Message Powered Off My Computer and Nothing Could Say Who Did It"
 summary: "A post-incident report on an unexplained remote shutdown in my AI agent setup: what was ruled out, the path that allowed it, the fixes, and how both fixes were nearly lost in a merge the next day."
-date: 2026-10-01
+date: 2026-08-19
 categories: reports
 tags: [Cybersecurity, Reports, IncidentResponse, AccessControl, DefaultDeny, ChangeManagement]
-number: 4
+number: 5
 ---
 
 ## Summary in plain language
@@ -77,4 +77,6 @@ The operating system's permission configuration still allows a direct call to th
 
 This was a single-user system. The report is written from the records made at the time. The original caller was never identified, and the report does not claim otherwise.
 
-<!-- 01-10-2026 20:20 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

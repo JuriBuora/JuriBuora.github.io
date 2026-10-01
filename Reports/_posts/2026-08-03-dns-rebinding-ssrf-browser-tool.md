@@ -2,10 +2,10 @@
 layout: post
 title: "Vulnerability Report: DNS-Rebinding SSRF in a Web-Reading Tool for an AI Agent"
 summary: "A formal write-up of a server-side request forgery flaw in a tool I built so an AI agent could read web pages. Four independent review rounds found five ways past its protections. All five are fixed and regression-tested; one transport remains untested."
-date: 2026-10-01
+date: 2026-08-03
 categories: reports
 tags: [Cybersecurity, Reports, SSRF, DNSRebinding, AppSec, VulnerabilityReport, IndependentReview]
-number: 3
+number: 4
 ---
 
 ## Summary in plain language
@@ -104,4 +104,6 @@ I have not assigned a numeric score. The rating above is my own reasoning, state
 
 Related reading on this site: the case study in the portfolio, and the lab where I rebuild a small version of the guard and attack it.
 
-<!-- 01-10-2026 18:40 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

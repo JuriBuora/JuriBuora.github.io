@@ -2,10 +2,10 @@
 layout: post
 title: "Audit Report: Dependency Vulnerabilities in My Self-Hosted AI Agent Gateway, From 76 Findings to Zero"
 summary: "A dependency security audit of the agent gateway I run on my own machine. 76 known-vulnerability findings were reduced to 2 in a first pass and to 0 in a second, without hiding any behind a version number."
-date: 2026-10-01
+date: 2026-08-02
 categories: reports
 tags: [Cybersecurity, Reports, SupplyChainSecurity, DependencyManagement, VulnerabilityManagement, PatchManagement]
-number: 2
+number: 3
 ---
 
 ## Summary in plain language
@@ -93,4 +93,6 @@ During the same repair, the gateway's health check kept reporting the model rout
 - A clean dependency scan says nothing about flaws in the gateway's own code or in how it is configured.
 - Advisories are published continuously. "Zero findings" was true on 1 August 2026 and needs re-checking on a schedule.
 
-<!-- 01-10-2026 18:25 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

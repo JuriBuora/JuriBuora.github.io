@@ -2,10 +2,10 @@
 layout: post
 title: "Test Report: Restoring an Encrypted Backup of My AI Agent's Data on a Second Machine"
 summary: "A restore drill, written up as a test report. The backup was encrypted and kept off the main machine, then restored elsewhere and checked: 2,606 files, 21 database tables, 64,977 rows, without touching the live service."
-date: 2026-10-01
+date: 2026-09-03
 categories: reports
 tags: [Cybersecurity, Reports, BackupRecovery, DisasterRecovery, Encryption, SQLite, Validation]
-number: 8
+number: 6
 ---
 
 ## Summary in plain language
@@ -97,4 +97,6 @@ A backup that runs by hand and fails on the schedule is a common trap. The sched
 
 One drill, on one date, for a single-user system. A backup strategy is only current as of its last successful restore.
 
-<!-- 01-10-2026 21:00 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

@@ -2,10 +2,10 @@
 layout: post
 title: "Incident Report: A Service Stopped Answering Because It Never Closed Its Database Connections"
 summary: "A root-cause report on a local web service that degraded until it refused connections. One helper function leaked a file handle on every call. The report covers the diagnosis, a one-place fix, and a test that could have failed."
-date: 2026-10-01
+date: 2026-07-23
 categories: reports
 tags: [Cybersecurity, Reports, IncidentResponse, Availability, RootCauseAnalysis, Python, SQLite]
-number: 6
+number: 2
 ---
 
 ## Summary in plain language
@@ -80,4 +80,6 @@ During diagnosis, my own verification traffic was enough to push the already-lea
 
 The measurements are from the day and were not re-run for this write-up. The service is local and single-user, so "outage" here means I could not reach my own tools.
 
-<!-- 01-10-2026 20:40 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

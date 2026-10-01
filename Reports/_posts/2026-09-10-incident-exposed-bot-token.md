@@ -2,10 +2,10 @@
 layout: post
 title: "Incident Report: An Exposed Bot Token, and a Rotation That Reported Success While the Service Was Down"
 summary: "A chat-bot credential was sitting in an automation workflow. This report covers containment, why deleting it was not enough, the rotation, and a second failure where the rotation tool said it had worked and had not."
-date: 2026-10-01
+date: 2026-09-10
 categories: reports
 tags: [Cybersecurity, Reports, IncidentResponse, SecretsManagement, CredentialRotation, Verification]
-number: 5
+number: 7
 ---
 
 ## Summary in plain language
@@ -83,4 +83,6 @@ The fix was to give it its own bot identity and token, separate from the gateway
 
 No evidence of misuse was found, which is not proof that none occurred. The report is written from the records made at the time.
 
-<!-- 01-10-2026 20:30 -->
+*Written up on 1 October 2026 from the records made at the time. The date at the top places this report next to the events it describes.*
+
+<!-- 01-10-2026 22:59 -->

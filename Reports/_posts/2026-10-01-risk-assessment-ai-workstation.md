@@ -91,7 +91,7 @@ Likelihood and impact are before controls. Residual is after the controls that e
 | R8 | The gateway copy falls far behind upstream, so fixes cannot be applied quickly | Structural | High | Moderate | Moderate | A drift check whenever I work in the repository | Low |
 | R9 | The web-reading tool is used to reach internal addresses (SSRF) | Adversarial | Low | High | Low | Five bypasses fixed and tested; tool not connected to any unattended path | Low |
 | R10 | The phone, or the private-network account, is compromised and used to control the agents | Adversarial or environmental | Low | Very High | Moderate | Private network only, pairing token, sender checks on chat commands | Moderate |
-| R11 | Email is forged in my domain's name | Adversarial | Moderate | Low | Low | SPF only; no DMARC record | Low |
+| R11 | Email is forged in my domain's name | Adversarial | Moderate | Low | Low | SPF, and a DMARC record in monitoring mode | Low |
 | R12 | A third-party skill or tool does more than it claims | Adversarial | Low | High | Low | Source review, pinned versions, a small allowlist | Low |
 
 ### How the likelihoods were set
@@ -127,7 +127,7 @@ The supervision layer that enforced independent checks is currently switched off
 
 | Risk | Treatment | Action | Effort |
 | --- | --- | --- | --- |
-| R11 | Mitigate | Add a DMARC record for the domain | Minutes |
+| R11 | Mitigate | DMARC record added in monitoring mode on the day of this assessment; tighten it after two weeks | Minutes |
 | R7 | Mitigate | Schedule a monthly dependency scan with an alert | Small |
 | R10 | Mitigate | Per-device revocable tokens; lost-phone procedure | Medium |
 | R2 | Mitigate | Scan workflow exports and logs for secrets | Medium |

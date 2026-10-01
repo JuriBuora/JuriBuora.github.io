@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WebCheckup Report: External Check-Up of juribuora.com, With Fixes and a Re-Test"
-summary: "I ran my own website check-up service against my own site. It found nine things. Four were fixed and one partly fixed, all re-measured the same day. Four are still open, and the tool got two things wrong."
+summary: "I ran my own website check-up service against my own site. It found nine things. Five were fixed and one partly fixed the same day, and re-checked. Three are still open, and the tool got two things wrong."
 date: 2026-10-01
 categories: reports
 tags: [Cybersecurity, Reports, WebSecurity, SecurityHeaders, Accessibility, WebPerformance, EmailSecurity]
@@ -14,8 +14,8 @@ I looked at juribuora.com from the outside, the way a visitor, a browser or a se
 
 The site was already in good shape on the basics: it is served only over HTTPS with a valid certificate, it loads no trackers, and it scored 100 for search visibility. The check-up still found nine things worth acting on. None was urgent.
 
-- **Four are fixed and one is partly fixed**, and I measured the site again afterwards to confirm it.
-- **Four are still open.** Three of them cannot be fixed in the site's code at all: they need a change at the hosting or DNS level.
+- **Five are fixed and one is partly fixed**, and I measured the site again afterwards to confirm it.
+- **Three are still open.** Two of them cannot be fixed in the site's code at all: they need a change at the hosting level.
 - **The tool was wrong twice**, and it missed three problems I found by hand. All of that is written down below, because a report that hides the limits of its own tooling is not worth much.
 
 | Measure | Before | After |
@@ -51,9 +51,9 @@ The site was already in good shape on the basics: it is served only over HTTPS w
 | 2 | The site can be shown inside another site's frame | Medium | Open | Hosting |
 | 3 | Home page slower than recommended on a phone | Medium | Fixed | Site code |
 | 4 | Accessibility problems (4) | Medium | Fixed | Site code |
-| 5 | Pictures missing in older posts | Medium | Fixed (1 left) | Site code |
+| 5 | Pictures missing in older posts | Medium | Fixed | Site code |
 | 6 | Page content only exists after JavaScript runs | Medium | Open | Site code |
-| 7 | No DMARC record for the domain's email | Low | Open | DNS provider |
+| 7 | No DMARC record for the domain's email | Low | Fixed (monitoring mode) | DNS provider |
 | 8 | Missing file-type protection header | Low | Open | Hosting |
 | 9 | Activity chart stopped at day 240 | Low | Fixed | Site code |
 
@@ -108,7 +108,7 @@ Lighthouse scored accessibility 86 and named four problems.
 
 **What was done.** Picture paths are now resolved to the original site when a post is displayed. 11 of the 12 load.
 
-**What is left.** One picture in one post refers to a file by name only, with no path. It cannot be resolved automatically and needs the post itself corrected.
+**The twelfth.** One picture in one post referred to a file by name only, and the file had never been published. The reference was removed from the post.
 
 ### 6. Page content only exists after JavaScript runs
 
@@ -132,7 +132,7 @@ Lighthouse scored accessibility 86 and named four problems.
 
     _dmarc.juribuora.com.  TXT  "v=DMARC1; p=none; rua=mailto:<reports address>"
 
-This needs access to the DNS account, so it is an owner action and is still open.
+**Done the same evening.** The record was added at the DNS provider in monitor mode (`p=none`) and confirmed by asking the domain's own name server. The next step is to tighten it once a couple of weeks have shown nothing legitimate failing.
 
 ### 8. Missing file-type protection header
 
@@ -169,9 +169,8 @@ The engine is tuned for small local businesses. On any other kind of site these 
 | Item | Needs | Priority |
 | --- | --- | --- |
 | Framing protection and file-type header (findings 2, 8) | Hosting that can send headers | Medium, rises if a login or form is added |
-| DMARC record (finding 7) | Access to the DNS account | Low, about ten minutes of work |
+| Tighten DMARC from monitoring to rejecting (finding 7) | A couple of weeks of monitoring first | Low |
 | Readable content without JavaScript (finding 6) | Prerendering at build time | Medium |
-| One unresolved picture (finding 5) | Editing one old post | Low |
 
 ## Technical appendix
 
@@ -184,7 +183,7 @@ The engine is tuned for small local businesses. On any other kind of site these 
 | Certificate | Let's Encrypt, expires 18 Nov 2026, TLS 1.3 |
 | Security headers sent | `strict-transport-security: max-age=31556952` only |
 | Policy declared in the page (after) | `default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'` |
-| Email DNS | MX present, SPF present, DMARC absent |
+| Email DNS | MX present, SPF present. DMARC absent at the time of the check, added later the same day |
 | Trackers | None detected |
 | Lighthouse | 13.4.1, phone profile, simulated slow 4G, 3 runs |
 | Scores before | Performance 96, accessibility 86, best practices 100, search 100 |

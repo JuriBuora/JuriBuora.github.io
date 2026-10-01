@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WebCheckup Report: External Check-Up of juribuora.com, With Fixes and a Re-Test"
-summary: "I ran my own website check-up service against my own site. It found nine things. Five were fixed and one partly fixed the same day, and re-checked. Three are still open, and the tool got two things wrong."
+summary: "I ran my own website check-up service against my own site. It found nine things. Six were fixed and one partly fixed the same day, and re-checked. Two are still open, and the tool got two things wrong."
 date: 2026-10-01
 categories: reports
 tags: [Cybersecurity, Reports, WebSecurity, SecurityHeaders, Accessibility, WebPerformance, EmailSecurity]
@@ -14,8 +14,8 @@ I looked at juribuora.com from the outside, the way a visitor, a browser or a se
 
 The site was already in good shape on the basics: it is served only over HTTPS with a valid certificate, it loads no trackers, and it scored 100 for search visibility. The check-up still found nine things worth acting on. None was urgent.
 
-- **Five are fixed and one is partly fixed**, and I measured the site again afterwards to confirm it.
-- **Three are still open.** Two of them cannot be fixed in the site's code at all: they need a change at the hosting level.
+- **Six are fixed and one is partly fixed**, and I measured the site again afterwards to confirm it.
+- **Two are still open.** Neither can be fixed in the site's code: they need a change at the hosting level.
 - **The tool was wrong twice**, and it missed three problems I found by hand. All of that is written down below, because a report that hides the limits of its own tooling is not worth much.
 
 | Measure | Before | After |
@@ -52,7 +52,7 @@ The site was already in good shape on the basics: it is served only over HTTPS w
 | 3 | Home page slower than recommended on a phone | Medium | Fixed | Site code |
 | 4 | Accessibility problems (4) | Medium | Fixed | Site code |
 | 5 | Pictures missing in older posts | Medium | Fixed | Site code |
-| 6 | Page content only exists after JavaScript runs | Medium | Open | Site code |
+| 6 | Page content only exists after JavaScript runs | Medium | Fixed | Site code |
 | 7 | No DMARC record for the domain's email | Low | Fixed (monitoring mode) | DNS provider |
 | 8 | Missing file-type protection header | Low | Open | Hosting |
 | 9 | Activity chart stopped at day 240 | Low | Fixed | Site code |
@@ -118,7 +118,9 @@ Lighthouse scored accessibility 86 and named four problems.
 
 **What is already in place.** Each page has its own static title, description and share picture, so links shared on social networks look right.
 
-**What to do.** Generate the readable text of each page at build time (prerendering). This is a larger change than the others and is not done yet.
+**What was done.** Fixed later the same day: the readable text of every page is now generated at build time (prerendering), and the browser takes over from there. Measured again on the live site, the home page went from 39 characters of visible text and no heading to 86,291 characters and one heading, and the link checker went from 0 links checked to 25, none broken.
+
+**What it cost.** The home page download grew from 237 kB to 308 kB, because every post card is now in the page itself. The phone performance score moved from 99 to 98, and the main content appears at 2.1 seconds (median of three runs) instead of 2.0. The "After" column in the table at the top was measured before this change.
 
 ### 7. No DMARC record for the domain's email
 
@@ -170,7 +172,6 @@ The engine is tuned for small local businesses. On any other kind of site these 
 | --- | --- | --- |
 | Framing protection and file-type header (findings 2, 8) | Hosting that can send headers | Medium, rises if a login or form is added |
 | Tighten DMARC from monitoring to rejecting (finding 7) | A couple of weeks of monitoring first | Low |
-| Readable content without JavaScript (finding 6) | Prerendering at build time | Medium |
 
 ## Technical appendix
 
@@ -190,9 +191,10 @@ The engine is tuned for small local businesses. On any other kind of site these 
 | Scores after | Performance 99, accessibility 100, best practices 100, search 100 |
 | Main content visible | Before 1.93 to 3.13 s (median 2.61). After 1.95 to 2.13 s (median 1.98) |
 | Home page download | Before 428,548 bytes. After 237,171 bytes |
+| After prerendering (finding 6) | Performance 98, accessibility 100. Main content visible 2.03 to 2.43 s (median 2.10). Home page download 308,186 bytes. Visible text in the HTML 86,291 characters, 25 links checked |
 
 ## Limits of this report
 
 This is an external, non-invasive review of a public website. It does not include penetration testing, aggressive scanning, login testing or exploit attempts. It covers the home page in depth and other page types only where a fix had to be verified. A clean result here does not mean the site is secure; it means these specific checks found nothing more.
 
-<!-- 01-10-2026 17:40 -->
+<!-- 01-10-2026 21:16 -->

@@ -120,7 +120,7 @@ Lighthouse scored accessibility 86 and named four problems.
 
 **What was done.** Fixed later the same day: the readable text of every page is now generated at build time (prerendering), and the browser takes over from there. Measured again on the live site, the home page went from 39 characters of visible text and no heading to 86,291 characters and one heading, and the link checker went from 0 links checked to 25, none broken.
 
-**What it cost.** The home page download grew from 237 kB to 308 kB, because every post card is now in the page itself. The phone performance score moved from 99 to 98, and the main content appears at 2.1 seconds (median of three runs) instead of 2.0. The "After" column in the table at the top was measured before this change.
+**What it cost, and the follow-up.** At first the home page download grew from 237 kB to 308 kB, because every post card was in the page itself, and the phone performance score moved from 99 to 98. The same evening the home page was changed to carry the 50 newest posts and add the rest as the reader scrolls. Measured again: 279 kB, performance back at 99, main content visible at 2.0 seconds (median of three runs), and 22,782 characters of visible text in the HTML. The full list stays on the blog and labs archive pages for readers without JavaScript. The "After" column in the table at the top was measured before these changes.
 
 ### 7. No DMARC record for the domain's email
 
@@ -192,9 +192,10 @@ The engine is tuned for small local businesses. On any other kind of site these 
 | Main content visible | Before 1.93 to 3.13 s (median 2.61). After 1.95 to 2.13 s (median 1.98) |
 | Home page download | Before 428,548 bytes. After 237,171 bytes |
 | After prerendering (finding 6) | Performance 98, accessibility 100. Main content visible 2.03 to 2.43 s (median 2.10). Home page download 308,186 bytes. Visible text in the HTML 86,291 characters, 25 links checked |
+| After the home list was shortened | Performance 99, accessibility 100. Main content visible 1.88 to 2.25 s (median 1.95). Home page download 278,763 bytes. Visible text in the HTML 22,782 characters, 25 links checked |
 
 ## Limits of this report
 
 This is an external, non-invasive review of a public website. It does not include penetration testing, aggressive scanning, login testing or exploit attempts. It covers the home page in depth and other page types only where a fix had to be verified. A clean result here does not mean the site is secure; it means these specific checks found nothing more.
 
-<!-- 01-10-2026 21:16 -->
+<!-- 01-10-2026 22:18 -->

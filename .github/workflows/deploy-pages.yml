@@ -3,6 +3,11 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches: [my-blog]
+  # Posts dated in the future stay hidden until their day, and Jekyll only
+  # notices that the day has come when it builds. So build every morning,
+  # shortly before juribuora.com picks up the same posts at 05:00 UTC.
+  schedule:
+    - cron: "30 4 * * *"
   workflow_dispatch:
 
 permissions:

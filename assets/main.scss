@@ -3,3 +3,12 @@
 ---
 
 @import "minima";
+
+// One-line description under a title on the list pages (front matter `summary`).
+.post-summary {
+  margin: -6px 0 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  max-width: 46em;
+}

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Defense in Depth for a Physical-Machine Bridge: Home Assistant and the M4 Sleep Control"
+title: "Letting Home Assistant Wake and Sleep a Mac Without Handing It Broad Access"
+summary: "Wake and sleep treated as two separate trust decisions: wake adds no new authority, and sleep goes through a local-only bridge that can run one fixed command."
 date: 2026-09-05
 categories: portfolio-material
 tags: [Cybersecurity, LeastPrivilege, DefenseInDepth, NetworkSecurity, HomeAutomation]
+number: 8
 ---
 
 ## Summary

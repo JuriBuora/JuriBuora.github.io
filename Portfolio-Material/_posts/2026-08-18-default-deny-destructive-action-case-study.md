@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Default-Deny for Destructive Actions: Closing an Unattributed Shutdown Path"
+title: "Investigating an Unexplained Remote Shutdown and Locking Down the Power-Off Path"
+summary: "A Mac in my setup was powered off by a chat message with no clear cause. I traced the path that allowed it, closed it, and made shutdown default-deny with a record of every caller."
 date: 2026-08-18
 categories: portfolio-material
 tags: [Cybersecurity, AccessControl, DefaultDeny, Authentication, ChangeManagement]
+number: 6
 ---
 
 ## Summary

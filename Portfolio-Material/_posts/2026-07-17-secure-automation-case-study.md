@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Building Safer Privileged Automation"
+title: "Supervising an AI Agent: Approvals, Audit Logs and Recovery Before It Acts"
+summary: "I designed and tested a supervision layer for a local AI agent: task-scoped permissions, approvals, audit records and restart-safe controls. Feature-flagged and fixture-tested, not live."
 date: 2026-07-17
 categories: portfolio-material
 tags: [Cybersecurity, AutomationSecurity, LeastPrivilege, Approvals, Auditability]
+number: 1
 ---
 
 ## Summary

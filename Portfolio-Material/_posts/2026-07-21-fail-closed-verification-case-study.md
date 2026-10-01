@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Fail-Closed Verification for Autonomous Agents"
+title: "Stopping an AI Agent from Claiming Success It Cannot Prove"
+summary: "The verification layer around my agent supervisor: success needs evidence, checks fail closed, decision changes are shadow-tested, and recovery is rehearsed."
 date: 2026-07-21
 categories: portfolio-material
 tags: [Cybersecurity, FailClosed, Verification, Automation, Integrity]
+number: 3
 ---
 
 ## Summary

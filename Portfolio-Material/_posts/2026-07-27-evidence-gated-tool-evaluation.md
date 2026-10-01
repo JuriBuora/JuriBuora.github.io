@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Evidence-Gated Tool Evaluation"
+title: "Vetting Third-Party Tools Before Installing Them: Source, Permissions, Removal"
+summary: "How I evaluated candidate tools: pinned source revisions, comparison with a manual baseline, bounded trials, and clean removal for the ones that did not earn their place."
 date: 2026-07-27
 categories: portfolio-material
 tags: [Cybersecurity, SupplyChainSecurity, ToolEvaluation, Provenance, LeastPrivilege]
+number: 4
 ---
 
 ## Summary

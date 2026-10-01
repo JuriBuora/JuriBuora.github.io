@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Verifiable Artifact Delivery"
+title: "Sharing an Agent's Output Files Safely: Expiring Links and Hash Checks"
+summary: "A way to hand one task's report to one recipient without giving storage access: single-purpose expiring links, integrity checks before delivery, and durable delivery state."
 date: 2026-07-18
 categories: portfolio-material
 tags: [Cybersecurity, Integrity, SecureDelivery, Hashing, Authorization]
+number: 2
 ---
 
 ## Summary

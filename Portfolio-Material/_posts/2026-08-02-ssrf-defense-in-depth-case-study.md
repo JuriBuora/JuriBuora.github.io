@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "SSRF Defense in Depth: Building It, Then Breaking It"
+title: "Building an SSRF Guard for an Agent's Web Fetches, Then Finding Two Bypasses in It"
+summary: "I built the guard that stops an agent tool fetching internal addresses, ran an independent review of my own fix, and found two live bypasses before either was patched."
 date: 2026-08-02
 categories: portfolio-material
 tags: [Cybersecurity, SSRF, DNSRebinding, AppSec, IndependentReview]
+number: 5
 ---
 
 ## Summary

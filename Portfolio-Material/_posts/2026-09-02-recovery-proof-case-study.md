@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Recovery by Proof: Encrypted Off-Host Hermes State Backup"
+title: "Proving a Backup Restores: Encrypted Off-Host Backup of an Agent's State"
+summary: "An encrypted off-machine backup of my agent's database, verified by restoring it on a second machine and checking structure, contents and integrity."
 date: 2026-09-02
 categories: portfolio-material
 tags: [Cybersecurity, BackupRecovery, Encryption, SQLite, IncidentResponse, Validation]
+number: 7
 ---
 
 ## Summary

@@ -4,10 +4,14 @@ on:
   push:
     branches: [my-blog]
   # Posts dated in the future stay hidden until their day, and Jekyll only
-  # notices that the day has come when it builds. So build every morning,
-  # shortly before juribuora.com picks up the same posts at 05:00 UTC.
+  # notices that the day has come when it builds. So build in the morning.
+  # GitHub runs schedules on a best-effort basis and may skip them, so these
+  # two slots are a bonus, not the guarantee: a job on the author's Mac
+  # (scripts/release-due-posts.py in the juribuora-cyber-site repository)
+  # checks that the day's posts are listed and starts this workflow if not.
   schedule:
-    - cron: "30 4 * * *"
+    - cron: "13 4 * * *"
+    - cron: "13 6 * * *"
   workflow_dispatch:
 
 permissions:

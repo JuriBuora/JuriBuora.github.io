@@ -14,6 +14,16 @@ canonical Markdown file must be mirrored into the vault named exactly
   existing Obsidian note: report a byte-different file as a conflict.
 - Do not substitute `Juri Personale`, `RAG`, or `AI Agent Inbox` for the main
   vault.
-- Pushing the website remains an explicit, separate action.
+- Juri authorizes immediate publication of all new blog posts and labs (20 November
+  2026). After validation and mirroring, commit, push, deploy and verify both
+  sites without asking again. Date newly published posts for immediate release;
+  do not leave them scheduled unless Juri asks.
+- Never put internal drafting/source notes, editorial queue notes, or appended
+  timestamp comments in public post Markdown. Keep provenance in handoffs.
+- When Juri explicitly requests an editorial correction, apply it to the exact
+  corresponding Obsidian mirrors after checking their old bytes match the
+  canonical source. Preserve and report independently modified notes.
 
 15-09-2026 06:49
+
+20-11-2026 22:15

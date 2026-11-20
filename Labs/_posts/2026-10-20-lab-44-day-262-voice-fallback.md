@@ -42,5 +42,3 @@ The tests pass, the offline result is explicit, and no voice-delivered receipt i
 ## Security Takeaways
 
 Fail-fast behavior limits ambiguous retries and prevents an operator from confusing “text generated” with “voice delivered.” Availability failures need honest receipts.
-
-<!-- Written from verified work recorded on 2026-11-09. -->

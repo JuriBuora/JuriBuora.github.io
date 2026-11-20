@@ -83,5 +83,3 @@ The completed exercise should show:
 Audit logs are evidence, so test provenance matters. A temporary fixture is not merely convenient test plumbing: it prevents synthetic failures from changing the operational record and gives the test an explicit, reviewable destination.
 
 This pattern also applies to telemetry queues, alert stores, incident tickets, backup receipts, and other state that a security investigation may later trust.
-
-<!-- Written 21-10-2026 09:30 Europe/Rome -->

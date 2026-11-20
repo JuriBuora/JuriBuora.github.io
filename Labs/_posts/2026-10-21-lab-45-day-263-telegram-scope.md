@@ -41,5 +41,3 @@ The verifier reports the bounded positive path and the exact mutants as failures
 ## Security Takeaways
 
 Internal routing is still an authorization boundary. A persisted row or a shared process does not grant a route authority over another platform's session.
-
-<!-- Written from verified work recorded on 2026-11-09. -->

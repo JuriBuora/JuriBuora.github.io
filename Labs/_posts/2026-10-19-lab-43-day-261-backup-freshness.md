@@ -46,5 +46,3 @@ The tests pass, and the result distinguishes fresh, stale, unreadable, and unava
 ## Security Takeaways
 
 Backup freshness is an integrity and availability signal. The useful receipt says what was checked, when, and what remains unproven.
-
-<!-- Written from verified work recorded on 2026-11-09. -->

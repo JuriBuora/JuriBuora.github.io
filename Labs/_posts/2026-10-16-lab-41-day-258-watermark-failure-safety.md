@@ -75,5 +75,3 @@ Exercise the no-new-work path and the calendar-or-destination-unavailable path. 
 State cursors are security-relevant when they decide which records remain visible to an analyst or automation. Advancing a cursor after a failed parse can create silent loss, weaken auditability, and make a later investigation impossible. Retrying forever creates a denial-of-service risk, so safe designs need both preservation and a bounded escape path.
 
 This lab does not prove a production monitoring system is secure. It demonstrates one narrow, reproducible control: do not claim to have processed evidence that the parser did not successfully understand.
-
-<!-- Edited 21-10-2026 20:00 Europe/Rome -->

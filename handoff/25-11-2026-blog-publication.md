@@ -56,4 +56,19 @@ or overwrite historical mirrors. Source ai-agent-laptop remains read-only.
 Inherited skill-observations/log.md changes and older branch were preserved and
 excluded from content commits. No new worktree or stash was created.
 
-25-11-2026 17:10
+
+Companion follow-through: npm run build completed, generating 400 route shells;
+all 82 tests across 21 files passed. Both new generated article bodies matched
+canonical Markdown exactly and contained no editorial comments. Initial companion
+checkout was clean. Normal content sync artifacts were committed and pushed as
+90559383014323064c2ded26500245deb90a93cb, triggering deployment run
+https://github.com/JuriBuora/juribuora-cyber-site/actions/runs/45651654391
+The handoff push also triggered canonical run
+https://github.com/JuriBuora/JuriBuora.github.io/actions/runs/45651578785
+Final outcome: canonical retry failed creating Pages deployment with HTTP 502.
+Companion build and tests succeeded remotely, but its deploy also failed.
+Both workloads completed; neither site has verified publication success. All owned content
+commits are pushed; companion checkout is clean.
+
+
+25-11-2026 17:14
